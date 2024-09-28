@@ -1,0 +1,8 @@
+services:
+  ch-ui:
+    image: ghcr.io/caioricciuti/ch-ui:latest
+    ports:
+      - "5521:5521"
+    env_file:
+        - .env
+
