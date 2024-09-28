@@ -27,5 +27,3 @@ docker compose up -d
 >
 > This means that the webui service (CH-UI) does not need to be part of the same network as the clickhouse instance.
 > This also means that if you would like your webui to be able to connect, the clickhouse instance must be reachable by the host (browser) that the webui (CH-UI) is running on.
-# clickhouse-ui
-# clickhouse-ui
